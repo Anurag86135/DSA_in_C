@@ -90,10 +90,10 @@ int main(){
     fourth->data=15;
     fourth->next=NULL;
     cout<<"LinkedList before insertion"<<endl;
-    linkedTravershal(head);
-    head=insertAtFirst(head,55);
-    head=insertAtIndex(head,55,1);
-    head=insertAtEnd(head,90);
+    // linkedTravershal(head);
+    // head=insertAtFirst(head,55);
+    // head=insertAtIndex(head,55,1);
+    // head=insertAtEnd(head,90);
     head=insertAfterNode(head,Third,88);
     cout<<"Linked list after insertion"<<endl;
     linkedTravershal(head);
